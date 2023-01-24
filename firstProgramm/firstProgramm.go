@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"Github.com/SergeyMoshkov/bootcampMasterGo"
+	"github.com/SergeyMoshkov/bootcampMasterGo"
 )
 
 var gopath string = os.Getenv("GOPATH")
