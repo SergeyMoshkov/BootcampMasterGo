@@ -1,13 +1,15 @@
 package main
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
+	"Github.com/SergeyMoshkov/Formatinput"
 )
 
-//var gopath string = os.gopath
+var gopath string = os.Getenv("GOPATH")
 
 func main() {
-    fmt.Println(os.Getenv("GOPATH"))
-    fmt.Println(os.Getuid())
+	fmt.Println(gopath)
+	fmt.Println(os.Getuid())
+	FormatInput()
 }
