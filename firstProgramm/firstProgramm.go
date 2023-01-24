@@ -9,4 +9,5 @@ import (
 
 func main() {
     fmt.Println(os.Getenv("GOPATH"))
+    fmt.Println(os.Getuid())
 }
