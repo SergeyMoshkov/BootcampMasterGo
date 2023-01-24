@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "os"
+)
+
+//var gopath string = os.gopath
 
 func main() {
-	fmt.Println($GOPATH)
+    fmt.Println(os.Getenv("GOPATH"))
 }
